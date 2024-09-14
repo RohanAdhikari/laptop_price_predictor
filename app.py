@@ -75,7 +75,7 @@ if st.sidebar.button('Predict Price 💰'):
 
 
     # Display the result
-    st.subheader(f"The predicted price of this configuration is: NRP. {predicted_price}")
+    st.subheader(f"The predicted price of this configuration is: Rs. {predicted_price}")
 
 # --- Footer ---
 st.write("--------------------------------------------")
