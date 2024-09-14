@@ -71,7 +71,7 @@ if st.sidebar.button('Predict Price 💰'):
     query = query.reshape(1, -1)
 
     # Predict the price
-    predicted_price = int(np.exp(pipe.predict(query)[0]) * 1.6)
+    predicted_price = int(np.exp(pipe.predict(query)[0]))
 
 
     # Display the result
