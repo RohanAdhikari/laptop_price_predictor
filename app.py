@@ -71,11 +71,11 @@ if st.sidebar.button('Predict Price 💰'):
     query = query.reshape(1, -1)
 
 
-    predicted_price = int(np.exp(pipe.predict(query)[0]))
+    predicted_price = int(np.exp(pipe.predict(query)[0])*1.6)
 
 
    
-    st.subheader(f"The predicted price of this configuration is: Rs. {predicted_price}")
+    st.subheader(f"The predicted price of this configuration is: NRP.{predicted_price}")
 
 
 st.write("--------------------------------------------")
